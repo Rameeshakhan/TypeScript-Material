@@ -55,3 +55,8 @@ Like assigning data types to arguments that will be passed and assigning data ty
 #### Assigning default values to arguments
 ![Function](images/image8.png)
 
+#### Return type Union
+![Return type Union](images/image9.png)
+
+#### Arrow Function Syntax for type defining
+![Arrow Function Syntax](images/image10.png)

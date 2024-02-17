@@ -27,3 +27,28 @@ function loginUser(name: string, email: string , isPaid: boolean = false){}
 console.log(loginUser('world','world'));
 
 export {}
+
+//this could happen 
+
+// function getValue(value:  number){
+//     if(value > 5){
+//         return true
+//     }
+//     return '200 ok'
+// }
+// union return type
+
+function getValue(value: number): boolean | string {
+    if (value > 5) {
+        return true;
+    }
+    return '200 ok';
+}
+
+// types writing syntax in arrow function
+
+const getHello = (arg: string):string => {
+    return `hello ${arg}`
+}
+
+getHello('adsdf')
