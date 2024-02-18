@@ -52,3 +52,30 @@ const getHello = (arg: string):string => {
 }
 
 getHello('adsdf')
+
+// TypeScript automatically detect the types
+
+const heros = ['SpiderMan' , 'SuperMan' , 'BatMan'];
+// const heros = [1 , 2 ,3];
+
+
+heros.map((hero): string => {
+    // return 2; // will give error with the return type
+    return `hero is ${hero}`;
+})
+
+// void to use where a function wont return anything
+
+function consoleError(errMsg: string) : void {
+    console.log(errMsg)
+}
+
+// never that will never return anything
+
+function handleError (errMsg: string): never {
+    throw new Error (errMsg)
+} 
+
+// Use void when a function does not return any value.
+// Use never when a function never produces a value, either because it throws an exception or enters an infinite loop.
+
