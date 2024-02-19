@@ -82,3 +82,7 @@ It is like defining our own type
 # Union 
 
 If you are not sure about type then instead of using any use union operator
+
+
+![TypeAliases Vs Interface](images/image15.png)
+
