@@ -100,7 +100,7 @@ type cardDate  = {
 }
 
 // defining a new type based on the combination of diff types
-// not a good practices
+// not a good practice
 type cardDetails = cardNumber & cardDate & {
    cvv : number
 }

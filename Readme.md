@@ -60,3 +60,25 @@ Like assigning data types to arguments that will be passed and assigning data ty
 
 #### Arrow Function Syntax for type defining
 ![Arrow Function Syntax](images/image10.png)
+
+# Objects in TypeScript 
+
+![Object](images/image11.png)
+
+# TypeAliases
+
+It is like defining our own type 
+
+![Type Aliases](images/image12.png)
+
+#### ReadOnly Property 
+
+![readonly](images/image13.png)
+
+# Arrays 
+
+![Arrays](images/image14.png)
+
+# Union 
+
+If you are not sure about type then instead of using any use union operator
