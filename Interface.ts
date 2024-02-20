@@ -6,6 +6,10 @@ interface  cred {
     myFunc() : string,
 }
 
+// type type1 {
+//     w : stirng  | number
+//     r : number |  boolean 
+// }
 // it is allowed in typescript , it is being called reopening of the interface
 interface cred {
     authToken : string

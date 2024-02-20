@@ -1,6 +1,8 @@
 
 const superHeros : number[] = [];
 
+const name : string = "sdkgjkdf"
+
 const num1 : Array<number> = [] // another syntax 
 
 // Array of Arrays -> 2d Array 

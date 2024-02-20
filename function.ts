@@ -1,7 +1,12 @@
 
-function addTwo(num: number): number{ // will give error if any other data type argument is passed
+function addTwo (num: number): number{ // will give error if any other data type argument is passed
     return num + 2; //if returning any other typw will throw error
 }
+
+// function r( arg : number | stirng ) : {} | []{
+
+// }
+
 
 // In this it can be happen that you use num to use any builtin function for any types
 // function addTwo(num){

@@ -83,6 +83,10 @@ It is like defining our own type
 
 If you are not sure about type then instead of using any use union operator
 
+# TypeAliases Vs Interface
 
 ![TypeAliases Vs Interface](images/image15.png)
 
+# Key Differences btw JS & TS
+
+![JS vs TS](images/image16.png)

@@ -1,7 +1,7 @@
 const User = {
     name: "Rameesha",
     email: 'ram@gmail.com',
-    isActive: false
+    isActive : false
 }
 
 const reactCourse = {
@@ -10,6 +10,12 @@ const reactCourse = {
     amount: 2000
 }
 
+const arr1: [] = [3,5,6]
+
+
+const arr2 : [number , string] = [4 , "fgjfdk" ]   // tuple
+
+arr2.push(5)
 
 // taking object arg , returning object , we wont write object , instead we use symbol for object that is {}
 function createUser(User : {}): {}{
