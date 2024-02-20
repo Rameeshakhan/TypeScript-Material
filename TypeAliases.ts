@@ -76,7 +76,6 @@ myObject.name = 'New Name';
 // This would be invalid:
 // myObject._id = ['4', '5', '6']; // Cannot reassign a new array to a readonly property
 
-
 // if you want to have a property that someone can have and someone cannot so we be doing like this 
 
 type paymentInfo = {
